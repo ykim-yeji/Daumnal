@@ -1,16 +1,3 @@
-package com.ssafy.daumnal.member.entity;
-
-import com.ssafy.daumnal.global.entity.BaseEntity;
-import jakarta.persistence.*;
-import lombok.Getter;
-
-@Entity
-@Getter
-@Table(name = "member")
-public class Member extends BaseEntity {
-
-    @Id
-    @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:266299ffd821d0cfca6e90d0d2e9f9c617458a739b023c6cd90e66330ac946f0
+size 799
