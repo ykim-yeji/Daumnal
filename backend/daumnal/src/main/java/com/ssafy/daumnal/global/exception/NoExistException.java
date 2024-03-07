@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8658d5ff85de2d3ad97d3f9b5047778824e8b7e98c12d8ddc97a7265c8bd6307
-size 472
+package com.ssafy.daumnal.global.exception;
+
+import com.ssafy.daumnal.global.constants.ErrorCode;
+import lombok.Getter;
+
+@Getter
+public class NoExistException extends RuntimeException {
+
+    private final ErrorCode code;
+
+    public NoExistException() {
+        super(ErrorCode.NOT_EXISTS_ID.getMessage());
+        this.code = ErrorCode.NOT_EXISTS_ID;
+    }
+
+    public NoExistException(ErrorCode code) {
+        super(code.getMessage());
+        this.code = code;
+    }
+}

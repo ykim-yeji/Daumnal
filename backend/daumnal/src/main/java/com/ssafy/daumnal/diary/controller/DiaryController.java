@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fbf55cbed7a5989172cf1899544f238cc639ebb37656fca72675d78aa96aed43
-size 489
+package com.ssafy.daumnal.diary.controller;
+
+import com.ssafy.daumnal.diary.service.DiaryService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequiredArgsConstructor
+@CrossOrigin("*")
+@RequestMapping("/diaries")
+public class DiaryController {
+
+    private final DiaryService diaryService;
+}

@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:44f4e2d91accf88eeec4fde8836c085e22592de05f870c3add7615d32e1bfc25
-size 398
+package com.ssafy.daumnal.member.service.impl;
+
+import com.ssafy.daumnal.member.repository.MemberRepository;
+import com.ssafy.daumnal.member.service.MemberService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@RequiredArgsConstructor
+public class MemberServiceImpl implements MemberService {
+
+    private final MemberRepository memberRepository;
+}

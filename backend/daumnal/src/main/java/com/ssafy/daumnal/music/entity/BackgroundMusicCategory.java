@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e924aed26462a70b1c57489fb2b34e23fcd2164b46f81e2589ee7936d26eb132
-size 239
+package com.ssafy.daumnal.music.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
+public enum BackgroundMusicCategory {
+    MUSIC("배경음악"), EFFECT("효과음");
+
+    private String name;
+}

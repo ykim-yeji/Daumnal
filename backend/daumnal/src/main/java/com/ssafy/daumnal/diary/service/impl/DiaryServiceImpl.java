@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c8f517f3d1ae39e93baa05406d97bb9168e01ade87f1b3bccfb8aacef91163ea
-size 389
+package com.ssafy.daumnal.diary.service.impl;
+
+import com.ssafy.daumnal.diary.repository.DiaryRepository;
+import com.ssafy.daumnal.diary.service.DiaryService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@RequiredArgsConstructor
+public class DiaryServiceImpl implements DiaryService {
+
+    private final DiaryRepository diaryRepository;
+}
