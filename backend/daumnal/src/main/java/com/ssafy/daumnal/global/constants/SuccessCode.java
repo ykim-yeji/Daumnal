@@ -1,21 +1,3 @@
-package com.ssafy.daumnal.global.constants;
-
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import org.springframework.http.HttpStatus;
-
-import static org.springframework.http.HttpStatus.OK;
-
-@AllArgsConstructor
-@Getter
-public enum SuccessCode {
-
-    //일반
-    UPLOAD_IMAGE(OK, "이미지 업로드 성공"),
-
-    //일기
-    UPLOAD_DIARY_PHOTO(OK, "일기 내용 중 사진 부분 업로드 성공");
-
-    private final HttpStatus status;
-    private final String message;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9977e455a247a2b20f044152853446c8818eac36c63a8f65ac8e7e17a71d37fb
+size 565
