@@ -1,18 +1,3 @@
-package com.ssafy.daumnal.global.constants;
-
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import org.springframework.http.HttpStatus;
-
-import static org.springframework.http.HttpStatus.BAD_REQUEST;
-
-@AllArgsConstructor
-@Getter
-public enum ErrorCode {
-
-    //회원
-    NOT_EXISTS_MEMBER_ID(BAD_REQUEST, "존재하지 않는 회원 id 입니다.");
-
-    private final HttpStatus status;
-    private final String message;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:81d93a87e347a46cfe718c068cb90f6ebbff5762c4442f6995c0560859e1bf4d
+size 515
