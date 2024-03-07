@@ -1,16 +1,3 @@
-package com.ssafy.daumnal.music.entity;
-
-import com.ssafy.daumnal.global.entity.BaseEntity;
-import jakarta.persistence.*;
-import lombok.Getter;
-
-@Entity
-@Getter
-@Table(name = "music")
-public class Music extends BaseEntity {
-
-    @Id
-    @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2d15a791f6ec4021abe201cff839226ce81d85f8cae70ea66becc48297fe5d7
+size 1280
