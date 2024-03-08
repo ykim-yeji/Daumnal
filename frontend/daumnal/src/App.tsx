@@ -1,16 +1,3 @@
-import React from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons"
-
-function App() {
-  return (
-    // <div >App</div>
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-    </h1>
-//     <FontAwesomeIcon icon={faHeart} />
-
-  )
-}
-
-export default App
+version https://git-lfs.github.com/spec/v1
+oid sha256:e01b62c89f7ba1e8286fd389169392141d91277da4d3f7b88d2485b9b443220a
+size 744
