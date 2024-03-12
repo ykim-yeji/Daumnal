@@ -1,12 +1,3 @@
-// 플레이리스트 목록 내부 단일 플레이리스트
-import React from 'react';
-
-const PlaylistCard: React.FC = () => {
-  return (
-    <div>
-      
-    </div>
-  );
-};
-
-export default PlaylistCard;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d88541614ca8b4c49c0c25316ce3773b3e94be91e91ef85454ed4b5d1ca5d860
+size 1727
