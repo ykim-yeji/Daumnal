@@ -1,16 +1,3 @@
-package com.ssafy.daumnal.member.controller;
-
-import com.ssafy.daumnal.member.service.MemberService;
-import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
-@RequiredArgsConstructor
-@CrossOrigin("*")
-@RequestMapping("/members")
-public class MemberController {
-
-    private final MemberService memberService;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:56f308371af6834a7ab6fcc9a125ab588a61a5a403f6e70cddb05b09107e5341
+size 764
