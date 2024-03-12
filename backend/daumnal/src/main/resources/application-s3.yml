@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6868facfc6cab23ae14d9406661ed2813d2b996a378d6e3cd354c557c47ce8ef
-size 214
+cloud:
+  aws:
+    s3:
+      bucket: daumnal
+    credentials:
+      accessKey: ${S3_ACCESSKEY}
+      secretKey: ${S3_SECRETKEY}
+    region:
+      static: ap-northeast-2
+      auto: false
+    stack:
+      auto: false
