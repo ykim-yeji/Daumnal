@@ -1,10 +1,3 @@
-package com.ssafy.daumnal.member.service;
-
-import com.ssafy.daumnal.member.dto.MemberDTO.AddMemberNicknameRequest;
-import com.ssafy.daumnal.member.dto.MemberDTO.AddMemberRequest;
-
-public interface MemberService {
-    void addMember(AddMemberRequest accountDto);
-
-    void addMemberNickname(String memberId, AddMemberNicknameRequest nicknameRequest);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b67f6650a8866673813621d8e409aae191243f3f3b9efab47e631b767a2147d2
+size 517
