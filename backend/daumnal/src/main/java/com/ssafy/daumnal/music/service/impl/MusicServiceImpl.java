@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:21da0e5e1eccf583c6db643f6214e975cd774bbfbf1e90257eeb1e23f1e0270e
-size 389
+package com.ssafy.daumnal.music.service.impl;
+
+import com.ssafy.daumnal.music.repository.MusicRepository;
+import com.ssafy.daumnal.music.service.MusicService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@RequiredArgsConstructor
+public class MusicServiceImpl implements MusicService {
+
+    private final MusicRepository musicRepository;
+}

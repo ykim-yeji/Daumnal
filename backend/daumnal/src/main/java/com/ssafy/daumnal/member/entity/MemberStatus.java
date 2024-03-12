@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:97fea65fafa61e4465d553a8c9a66657afdcd7c85177252e4b530dfea4aab5e2
-size 307
+package com.ssafy.daumnal.member.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
+@Getter
+public enum MemberStatus {
+    DELETE(0, "회원 탈퇴 상태"), LOGIN(1, "로그인 상태"), LOGOUT(2, "로그아웃 상태");
+
+    private int value;
+    private String name;
+}
