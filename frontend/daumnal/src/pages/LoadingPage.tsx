@@ -1,19 +1,3 @@
-// 로딩 페이지
-import React from 'react';
-import styled from 'styled-components';
-import CharacterCard from '../components/music/CharacterCard';
-
-const Characters = styled.div`
-  display: flex;
-  justify-content: space-around;
-`;
-
-const LoadingPage: React.FC = () => {
-  return (
-    <div className="p-9">
-      <p className="text-4xl mb-7">- - - - - 일기 내용 감정 분석 중 - - - - -</p>
-    </div>
-  );
-};
-
-export default LoadingPage;
+version https://git-lfs.github.com/spec/v1
+oid sha256:479f284664d3ad8fa446cd1fc74cd15f1994b0f5b50afa9c5e6f80e17440ccad
+size 1428
