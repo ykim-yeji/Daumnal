@@ -1,6 +1,3 @@
-spring:
-  config:
-    import:
-      - classpath:/application-dev.yml
-      - classpath:/application-oauth.yml
-      - classpath:/application-s3.yml
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fd0265c2a0033edde9e0773e80fceb10fee1200fef39948a083deca3c8ede78
+size 147
