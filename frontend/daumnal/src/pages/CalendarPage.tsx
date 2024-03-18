@@ -1,18 +1,3 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
-const CalendarPage: React.FC = () => {
-  const navigate = useNavigate(); 
-
-  const handleButtonClick = () => {
-    navigate('/monthly-result');
-  };
-
-  return (
-    <div>
-      <button onClick={handleButtonClick}>월별 감정 분석</button>
-    </div>
-  )
-};
-
-export default CalendarPage;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7baa060c3a2cac5a996fc775232c7dad08e9076ede631b19f707e0cda4dbb699
+size 650
