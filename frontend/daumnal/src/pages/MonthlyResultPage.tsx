@@ -1,19 +1,3 @@
-import React from 'react';
-import { useLocation } from 'react-router';
-
-const MonthlyResultPage = () => {
-
-  const location = useLocation();
-  const { year, month } = location.state || {};
-
-  return (
-    <div className='h-screen w-full p-12'>
-    <div className=' w-full h-full bg-white rounded-xl shadow-lg'>
-     <div>
-     </div>
-    </div>
-    </div>
-  )
-}
-
-export default MonthlyResultPage;
+version https://git-lfs.github.com/spec/v1
+oid sha256:36424e1f81c24b247ba44a9468f3a532aff126b88fc5bdb3add4b7288d38f954
+size 3178
