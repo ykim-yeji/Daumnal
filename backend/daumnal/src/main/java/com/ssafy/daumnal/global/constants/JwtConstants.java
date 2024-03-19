@@ -1,3 +1,8 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2fe54956beac7dc1629b316b2f8c623e404168e696081f8d8b573bcf70db4c44
-size 244
+package com.ssafy.daumnal.global.constants;
+
+public interface JwtConstants {
+
+    String ISSUER = "daumnalUrl"; // 발행한 개체의 url이 들어간다.
+    String ID_CATEGORY = "socialId";
+    String PROVIDER_CATEGORY = "socialProvider";
+}
