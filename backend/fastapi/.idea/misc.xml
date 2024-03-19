@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:53972b448f0fe975e34e5f4699e747538d351fc8ca3c0e7a445e58f26c990bd7
-size 201
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+    <component name="ProjectRootManager" version="2" default="true">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

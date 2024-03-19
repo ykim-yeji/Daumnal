@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dbd322a72796ef41504a6f4d91f6640d4f80a01f17dd1b2ea48634b9d647958a
-size 200
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/misc.xml
+/workspace.xml
