@@ -1,13 +1,3 @@
-package com.ssafy.daumnal.music.service.impl;
-
-import com.ssafy.daumnal.music.repository.PlaylistRepository;
-import com.ssafy.daumnal.music.service.PlaylistService;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
-
-@Service
-@RequiredArgsConstructor
-public class PlaylistServiceImpl implements PlaylistService {
-
-    private final PlaylistRepository playlistRepository;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e43cc95ace54657392e5b936db0983c2a5eaf865760aff6be8cfa3d880bc90f5
+size 407
