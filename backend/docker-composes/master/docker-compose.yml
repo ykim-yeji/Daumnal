@@ -1,24 +1,3 @@
-version: "3.8"
-services:
-  spring:
-    container_name: daumnal-spring
-    image: spring-image
-    build:
-      context: daumnal
-      dockerfile: Dockerfile
-    ports:
-      - :8080
-    environment:
-      - TZ=Asia/Seoul
-    restart: always
-  fastapi:
-    container_name: daumnal-fastapi
-    image: fastapi-image
-    build:
-      context: fastapi
-      dockerfile: Dockerfile
-    ports:
-      - :5000
-    environment:
-      - TZ=Asia/Seoul
-    restart: always
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d37b26f43fde98d786e2cc08e13ee0fbc3c0905177516cda6a19fe3e0a458f8
+size 545
