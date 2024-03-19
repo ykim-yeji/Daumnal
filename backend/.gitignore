@@ -1,5 +1,3 @@
-### Dockerfile ###
-#Dockerfiles/mysql/
-#Dockerfiles/nginx/develop/
-#Dockerfiles/jenkins/
-#Dockerfiles/redis/
+version https://git-lfs.github.com/spec/v1
+oid sha256:333a15c0a7190c146e371cc80f8be71dc0417abf010dab4142107bcbace8cb50
+size 104
