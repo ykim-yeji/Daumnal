@@ -1,10 +1,3 @@
-package com.ssafy.daumnal.diary.constants;
-
-public interface DiaryConstants {
-    int CONTENT_MAX_LENGTH = 3000;
-    int HASH_TAG_MAX_LENGTH = 10;
-    int HASH_TAG_MAX_COUNT = 3;
-    String SPLIT_REGEX = " ";
-    String HASH_TAG_REGEX = "^[가-힣A-Za-z0-9_]+$";
-    String NUMBER_REGEX = "^[1-9]\\d*$";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d344397fc56c295ebb308185c7846f388a4a3f0d6dafda1ddfeaa44a1a07ee3e
+size 306
