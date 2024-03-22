@@ -1,12 +1,3 @@
-package com.ssafy.daumnal.diary.repository;
-
-import com.ssafy.daumnal.diary.entity.Diary;
-import com.ssafy.daumnal.member.entity.Member;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
-@Repository
-public interface DiaryRepository extends JpaRepository<Diary, Long> {
-
-    boolean existsByMember(Member member);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f075dcfcd95310db6cb78b5070eabdde874c2145f079067cde6d5bc059c4059f
+size 474
