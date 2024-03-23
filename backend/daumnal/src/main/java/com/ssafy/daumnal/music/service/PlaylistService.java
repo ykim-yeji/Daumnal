@@ -1,13 +1,3 @@
-package com.ssafy.daumnal.music.service;
-
-import com.ssafy.daumnal.global.dto.PageResponse;
-import com.ssafy.daumnal.music.dto.PlaylistDTO.AddPlaylistRequest;
-
-public interface PlaylistService {
-
-    void addPlaylist(String memberId, AddPlaylistRequest addPlaylistRequest);
-
-    void addMusicToPlaylist(String memberId, Long playlistId, Long musicId);
-
-    PageResponse getPlaylists(String memberId, int pgno);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5100ba962a21c4767d83b8f362b051c298c1ae10753ec59316701e25166eaf6
+size 576
