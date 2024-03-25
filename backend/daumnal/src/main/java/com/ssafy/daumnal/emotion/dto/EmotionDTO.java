@@ -1,19 +1,3 @@
-package com.ssafy.daumnal.emotion.dto;
-
-import lombok.Getter;
-import lombok.Setter;
-
-public class EmotionDTO {
-
-    @Getter
-    @Setter
-    public static class DiaryEmotion {
-        private Integer fear;
-        private Integer surprise;
-        private Integer angry;
-        private Integer sadness;
-        private Integer neutral;
-        private Integer happiness;
-        private Integer disgust;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:29947fab370d6126d96ebc9490e5cc5840230f544f91865e40a8c48eb68c5aaa
+size 709
