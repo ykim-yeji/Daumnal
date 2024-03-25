@@ -1,13 +1,3 @@
-package com.ssafy.daumnal.music.repository;
-
-import com.ssafy.daumnal.music.entity.Playlist;
-import com.ssafy.daumnal.music.entity.PlaylistMusic;
-import com.ssafy.daumnal.music.entity.PlaylistMusicId;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
-@Repository
-public interface PlaylistMusicRepository extends JpaRepository<PlaylistMusic, PlaylistMusicId> {
-
-    Long countByPlaylist(Playlist playlist);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4fd6bcbcd6434b744b22cb40251e5687c5ba473b310a412810a632c75622f444
+size 963

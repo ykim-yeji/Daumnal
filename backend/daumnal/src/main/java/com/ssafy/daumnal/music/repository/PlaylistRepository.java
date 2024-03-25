@@ -1,14 +1,3 @@
-package com.ssafy.daumnal.music.repository;
-
-import com.ssafy.daumnal.member.entity.Member;
-import com.ssafy.daumnal.music.entity.Playlist;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
-@Repository
-public interface PlaylistRepository extends JpaRepository<Playlist, Long> {
-
-    Page<Playlist> findByMember(Member member, Pageable pageable);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0c4b5fa6140fad3f98c25200c6759e83f2808d30d343f2250aec17753ec4b91
+size 576
