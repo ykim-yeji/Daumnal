@@ -1,14 +1,3 @@
-package com.ssafy.daumnal.music.controller;
-
-import com.ssafy.daumnal.music.service.MusicService;
-import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
-@RequiredArgsConstructor
-@RequestMapping("/api/musics")
-public class MusicController {
-
-    private final MusicService musicService;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:94f504c89e55b05af6802b306c544d5999549224f8e9101821056363e268e4e9
+size 1495
