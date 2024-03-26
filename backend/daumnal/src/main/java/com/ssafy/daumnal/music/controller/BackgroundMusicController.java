@@ -1,14 +1,3 @@
-package com.ssafy.daumnal.music.controller;
-
-import com.ssafy.daumnal.music.service.BackgroundMusicService;
-import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-@RestController
-@RequiredArgsConstructor
-@RequestMapping("/api/background-musics")
-public class BackgroundMusicController {
-
-    private final BackgroundMusicService backgroundMusicService;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bcb08670f57cefb208e8779ee5f8791889b7a4dbaa6ee6a88fec2ac2ebc6f9d3
+size 2094
