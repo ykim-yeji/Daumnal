@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:77f64e1a12b8edc3b24b7c2ae5f0567ef194a8627a17fe9233ab5d11a810e300
-size 347
+package com.ssafy.daumnal.global.exception;
+
+import com.ssafy.daumnal.global.constants.ErrorCode;
+import lombok.Getter;
+
+@Getter
+public class LimitExceededException extends RuntimeException {
+
+    private final ErrorCode code;
+
+    public LimitExceededException(ErrorCode code) {
+        super(code.getMessage());
+        this.code = code;
+    }
+}

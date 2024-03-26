@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0bd3e93192cf82d01226f0443c761cbed5acb8a75f46c068f23dad690ba4073c
-size 160
+package com.ssafy.daumnal.music.constants;
+
+public interface MusicConstants {
+
+    long PLAYLIST_MAX_NUMBER = 21;
+    long MUSICS_IN_PLAYLIST_MAX_NUMBER = 30;
+}
