@@ -1,13 +1,3 @@
-package com.ssafy.daumnal.s3.service;
-
-import com.ssafy.daumnal.diary.entity.Diary;
-import com.ssafy.daumnal.music.entity.Playlist;
-import org.springframework.web.multipart.MultipartFile;
-
-public interface S3Service {
-
-    void delete(String url);
-    String uploadDiaryPhoto(MultipartFile diaryPhotoFile);
-
-    String uploadPlaylistCover(MultipartFile playlistCoverFile, Playlist playlist);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7324fc068f813e979ffdfbaa23ce7c2473b1e2bd55968bb08c3133f241f4afd0
+size 352
