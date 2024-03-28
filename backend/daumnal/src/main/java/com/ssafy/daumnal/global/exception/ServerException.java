@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b2dc8f940d40a177c1d990876f230c63a9853d25d79441f93fb8a8da9cb47b67
-size 333
+package com.ssafy.daumnal.global.exception;
+
+import com.ssafy.daumnal.global.constants.ErrorCode;
+import lombok.Getter;
+
+@Getter
+public class ServerException extends RuntimeException {
+
+    private final ErrorCode code;
+
+    public ServerException(ErrorCode code) {
+        super(code.getMessage());
+        this.code = code;
+    }
+}
