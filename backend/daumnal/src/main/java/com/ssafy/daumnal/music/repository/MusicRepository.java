@@ -1,9 +1,3 @@
-package com.ssafy.daumnal.music.repository;
-
-import com.ssafy.daumnal.music.entity.Music;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
-@Repository
-public interface MusicRepository extends JpaRepository<Music, Long> {
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5dfd2d1194f864a0857543185174e4c7979022d449d6c1857cfb089efe5ea93
+size 286
