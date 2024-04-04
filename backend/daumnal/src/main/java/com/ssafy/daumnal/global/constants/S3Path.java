@@ -1,15 +1,3 @@
-package com.ssafy.daumnal.global.constants;
-
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
-@Getter
-@AllArgsConstructor
-public enum S3Path {
-
-    PLAYLIST_COVER_PATH("플레이리스트 커버 경로"),
-    DIARY_PHOTO_PATH("일기 사진 경로"),
-    MUSIC_COVER_PATH("노래 커버 경로");
-
-    private final String name;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:87cb952b9e548e6f3abd7bdeb4c744745db285b5a645508d21743af245b6213c
+size 338

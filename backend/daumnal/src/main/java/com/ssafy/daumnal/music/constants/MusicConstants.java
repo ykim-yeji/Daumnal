@@ -1,8 +1,3 @@
-package com.ssafy.daumnal.music.constants;
-
-public interface MusicConstants {
-
-    long PLAYLIST_MAX_NUMBER = 21;
-    long MUSICS_IN_PLAYLIST_MAX_NUMBER = 30;
-    String MUSIC_DEFAULT_COVER_URL = "'https://daumnal.s3.ap-northeast-2.amazonaws.com/MUSIC_COVER_PATH/basic_cover.jpg'";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:add65f42995a92597ce4b61aa35f77bb646d26cddfcaafda3f8d1e5186035c76
+size 283
