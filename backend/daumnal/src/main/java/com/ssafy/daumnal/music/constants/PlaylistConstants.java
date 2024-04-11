@@ -1,6 +1,3 @@
-package com.ssafy.daumnal.music.constants;
-
-public interface PlaylistConstants {
-
-    String PLAYLIST_DEFAULT_COVER_URL = "'https://daumnal.s3.ap-northeast-2.amazonaws.com/PLAYLIST_COVER_PATH/playlist_default.png'";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:169357baf8c8028bf145e9bdd8e448bb6f4094177ce1e030089456fede049f7a
+size 353
