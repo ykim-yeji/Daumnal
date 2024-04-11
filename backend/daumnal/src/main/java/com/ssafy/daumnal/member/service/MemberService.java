@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ecd83e1aab54d3ab62c75d6d948dc23be5f379d361e13e891fb5968440abdcb9
-size 665
+package com.ssafy.daumnal.member.service;
+
+import com.ssafy.daumnal.member.dto.MemberDTO.GetMemberLoginResponse;
+import com.ssafy.daumnal.member.dto.MemberDTO.GetMemberNicknameResponse;
+
+public interface MemberService {
+    GetMemberNicknameResponse addMemberNickname(String memberId, String nickname);
+    GetMemberLoginResponse login(String socialId, String socialProvider);
+
+    GetMemberNicknameResponse modifyMemberNickname(String memberId, String memberNickname);
+
+    GetMemberNicknameResponse getMemberNickname(String memberId);
+
+    void modifyMemberStatusLogout(String memberId);
+
+    GetMemberNicknameResponse modifyMemberStatusDelete(String memberId);
+}

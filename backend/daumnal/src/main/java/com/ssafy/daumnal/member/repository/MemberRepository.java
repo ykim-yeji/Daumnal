@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8cc254e411ca13e51b3f9d110f043f92541310d9cb45c596b20286de727d8bcb
-size 641
+package com.ssafy.daumnal.member.repository;
+
+import com.ssafy.daumnal.member.entity.Member;
+import com.ssafy.daumnal.member.entity.SocialProvider;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+@Repository
+public interface MemberRepository extends JpaRepository<Member, Long> {
+
+    boolean existsMemberBySocialIdAndSocialProvider(Long socialId, SocialProvider socialProvider);
+
+    boolean existsMemberByNickname(String memberNickname);
+
+    Optional<Member> findMemberBySocialIdAndSocialProvider(Long socialId, SocialProvider socialProvider);
+}

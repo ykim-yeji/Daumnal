@@ -1,3 +1,37 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bde99fb8957d5b2202ca91d2ac89d4e14b2479f8c92616ee7ad942effc8b87d3
-size 830
+package com.ssafy.daumnal.member.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+
+public class MemberDTO {
+
+    @Getter
+    public static class AddMemberNicknameRequest {
+        private String memberNickname;
+    }
+
+    @Getter
+    public static class LoginMemberRequest {
+        private String socialId;
+        private String socialProvider;
+    }
+
+    @Getter
+    @AllArgsConstructor
+    @Builder
+    public static class GetMemberLoginResponse {
+        private String memberId;
+        private String memberAccessToken;
+        private String memberRefreshToken;
+        private Boolean firstLogin;
+    }
+
+    @Getter
+    @AllArgsConstructor
+    @Builder
+    public static class GetMemberNicknameResponse {
+        private String memberId;
+        private String memberNickname;
+    }
+}

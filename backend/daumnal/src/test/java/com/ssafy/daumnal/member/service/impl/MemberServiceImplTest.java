@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ce8ed3c8446e00011d82adac7558f37db2fce9887a7711ca3bc2799103031865
-size 773
+package com.ssafy.daumnal.member.service.impl;
+
+import com.ssafy.daumnal.member.repository.MemberRepository;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+@SpringBootTest
+class MemberServiceImplTest {
+
+    @Autowired MemberRepository memberRepository;
+
+    @DisplayName("닉네임 존재 여부 검증")
+    @Test
+    void nicknameExistsTest() {
+        //given
+        String existNickname = "nick";
+
+        //when
+        boolean result = memberRepository.existsMemberByNickname(existNickname);
+
+        //then
+        assertThat(result).isTrue();
+    }
+}

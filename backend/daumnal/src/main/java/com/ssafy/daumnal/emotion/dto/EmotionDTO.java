@@ -1,3 +1,56 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e9e2b8cfbdb3c0cf1e25a96d9d8ab4012dc322ab67de2e1682731d3146d1dbd5
-size 1409
+package com.ssafy.daumnal.emotion.dto;
+
+import com.ssafy.daumnal.emotion.dto.nativedto.GetEmotionByMonth;
+import com.ssafy.daumnal.emotion.entity.Emotion;
+import lombok.*;
+
+import java.util.List;
+
+public class EmotionDTO {
+
+    @Getter
+    @AllArgsConstructor
+    @Builder
+    public static class GetAllEmotionByMonth {
+        List<GetEmotionByMonth> diaryEmotions;
+    }
+
+    @Getter
+    @Setter
+    @AllArgsConstructor
+    @Builder
+    @NoArgsConstructor
+    public static class DiaryEmotion {
+        private Integer fear;
+        private Integer surprise;
+        private Integer angry;
+        private Integer sadness;
+        private Integer neutral;
+        private Integer happiness;
+        private Integer disgust;
+    }
+
+    @Getter
+    @Setter
+    public static class MusicEmotion {
+        private Integer fear;
+        private Integer surprise;
+        private Integer angry;
+        private Integer sadness;
+        private Integer neutral;
+        private Integer happiness;
+        private Integer disgust;
+
+        public Emotion toEntity() {
+            return Emotion.builder()
+                    .fear(fear)
+                    .surprise(surprise)
+                    .angry(angry)
+                    .sadness(sadness)
+                    .neutral(neutral)
+                    .happiness(happiness)
+                    .disgust(disgust)
+                    .build();
+        }
+    }
+}

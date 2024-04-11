@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:838d374553fe8ee4abd05da7eb014472605fd715c3d5be5283fa999806fa5769
-size 833
+package com.ssafy.daumnal.global.dto;
+
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
+public class TokenMemberDTO {
+
+    private final Long memberId;
+    private final Long memberSocialId;
+    private final String memberSocialProvider;
+    private final String type;
+
+    public static TokenMemberDTO accessToken(Long memberId, Long memberSocialId,
+                                             String memberSocialProvider) {
+        return new TokenMemberDTO(memberId, memberSocialId, memberSocialProvider, "access");
+    }
+
+    public static TokenMemberDTO refreshToken(Long memberId, Long memberSocialId,
+                                             String memberSocialProvider) {
+        return new TokenMemberDTO(memberId, memberSocialId, memberSocialProvider, "refresh");
+    }
+}

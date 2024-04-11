@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:026321a5d7f0431b24a816af6dee1d79e9d16b2f686fb311db0a643eb2226ee6
-size 1023
+package com.ssafy.daumnal.music.repository;
+
+import com.ssafy.daumnal.member.entity.Member;
+import com.ssafy.daumnal.music.entity.Music;
+import com.ssafy.daumnal.music.entity.Playlist;
+import com.ssafy.daumnal.music.entity.PlaylistMusic;
+import com.ssafy.daumnal.music.entity.PlaylistMusicId;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface PlaylistMusicRepository extends JpaRepository<PlaylistMusic, PlaylistMusicId> {
+
+    Long countByPlaylist(Playlist playlist);
+
+    List<PlaylistMusic> findByPlaylist(Playlist playlist);
+
+    @Query(
+            "SELECT pm.playlist FROM PlaylistMusic pm "
+            + "WHERE pm.music = :music "
+            + "AND pm.playlist.member = :member"
+    )
+    List<Playlist> findByMusicAndMember(@Param("music") Music music, @Param("member") Member member);
+}

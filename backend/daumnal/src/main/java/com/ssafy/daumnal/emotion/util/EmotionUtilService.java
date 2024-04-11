@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:250225e9ccceb9c1206d6db5848f6f439cbeb94b8639c1f757aea675119a7017
-size 555
+package com.ssafy.daumnal.emotion.util;
+
+import com.ssafy.daumnal.global.exception.InvalidException;
+import org.springframework.stereotype.Component;
+
+import static com.ssafy.daumnal.emotion.constants.EmotionConstants.NUMBER_REGEX;
+import static com.ssafy.daumnal.global.constants.ErrorCode.INVALID_DIARY_EMOTION_ID;
+
+@Component
+public class EmotionUtilService {
+
+    public void validateEmotionIdNumber(String emotionId) {
+        if (!emotionId.matches(NUMBER_REGEX)){
+            throw new InvalidException(INVALID_DIARY_EMOTION_ID);
+        }
+    }
+}

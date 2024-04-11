@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:360e0c58980202720407f6b00dd59f958c2e9260f444048bc51b29c711ccbe53
-size 728
+package com.ssafy.daumnal.music.dto;
+
+import com.ssafy.daumnal.music.entity.BackgroundMusicCategory;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+
+import java.util.List;
+
+public class BackgroundMusicDTO {
+
+    @Getter
+    @AllArgsConstructor
+    @Builder
+    public static class GetBackgroundMusicsResponse {
+        private List<GetBackGroundMusicResponse> backGroundMusics;
+    }
+
+    @Getter
+    @AllArgsConstructor
+    @Builder
+    public static class GetBackGroundMusicResponse {
+        private String backgroundMusicId;
+        private String backgroundMusicYoutubeId;
+        private String backgroundMusicTitle;
+        private BackgroundMusicCategory backgroundMusicCategory;
+    }
+}

@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d54c681277307168e419a6bd7f47208b07e8227928dc1e69a1737746f54220d
-size 866
+package com.ssafy.daumnal.global.util;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
+import org.springframework.stereotype.Component;
+
+import java.time.Duration;
+
+@Component
+@RequiredArgsConstructor
+public class RedisRepository {
+
+    private final RedisTemplate<String, String> redisTemplate;
+
+    public void setValues(String key, String data, Duration duration) {
+        ValueOperations<String, String> valueOpers = redisTemplate.opsForValue();
+        valueOpers.set(key, data, duration);
+    }
+
+    public String getValues(String key) {
+        ValueOperations<String, String> valueOpers = redisTemplate.opsForValue();
+        return valueOpers.get(key);
+    }
+
+    public void deleteValues(String key) {
+        redisTemplate.delete(key);
+    }
+}

@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bcfb4ef8319bc1a6bff9f4e9f6eed55f3ed65fa8dd6c9bba666bc35acd67c3dc
-size 865
+version: "3.8"
+services:
+  spring:
+    container_name: daumnal-spring
+    image: spring-image
+    build:
+      context: ../../daumnal
+      dockerfile: Dockerfile
+    environment:
+      - TZ=Asia/Seoul
+    networks:
+      - daumnal-network
+    restart: always
+  fastapi:
+    container_name: daumnal-fastapi
+    image: fastapi-image
+    build:
+      context: ../../fastapi
+      dockerfile: Dockerfile
+    environment:
+      - TZ=Asia/Seoul
+    networks:
+      - daumnal-network
+    restart: always
+  react:
+    container_name: daumnal-react
+    image: react-image
+    build:
+      context: ../../../frontend/daumnal
+      dockerfile: Dockerfile
+    environment:
+      - TZ=Asia/Seoul
+    volumes:
+      - react-volume:/etc/nginx/conf.d
+    networks:
+      - daumnal-network
+volumes:
+  react-volume:
+    external: true
+networks:
+  daumnal-network:
+    external: true
