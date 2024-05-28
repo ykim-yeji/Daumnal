@@ -30,19 +30,47 @@
 ## 개발 환경
 
 <h4>⛭ Management Tool</h4>
-<img src="https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=JIRA&logoColor=white"> <img src="https://img.shields.io/badge/gitlab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"> <img src="https://img.shields.io/badge/mattermost-0058CC?style=for-the-badge&logo=mattermost&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"> <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white">
+<p><img src="https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=JIRA&logoColor=white">
+<img src="https://img.shields.io/badge/gitlab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white">
+<img src="https://img.shields.io/badge/mattermost-0058CC?style=for-the-badge&logo=mattermost&logoColor=white">
+<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+<img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
+<img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white"></p>
 
 <h4>🖥️ IDE</h4>
-<img src="https://img.shields.io/badge/INTELLIJ-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/> <img src="https://img.shields.io/badge/VISUAL STUDIO CODE-007ACC?style=for-the-badge&logo=VISUAL STUDIO CODE&logoColor=white"/> <img src="https://img.shields.io/badge/PYCHARM-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
+<p><img src="https://img.shields.io/badge/INTELLIJ-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/>
+<img src="https://img.shields.io/badge/VISUAL STUDIO CODE-007ACC?style=for-the-badge&logo=VISUAL STUDIO CODE&logoColor=white"/>
+<img src="https://img.shields.io/badge/PYCHARM-000000?style=for-the-badge&logo=pycharm&logoColor=white"/></p>
 
 <h4>🚦 Infra</h4>
-<img src="https://img.shields.io/badge/AMAZON EC2-232F3E?style=for-the-badge&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/AMAZON S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"/> <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white"/> <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/DOCKER COMPOSE-2496ED?style=for-the-badge&logo=&logoColor=white"/> <img src="https://img.shields.io/badge/UBUNTU-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/> <img src="https://img.shields.io/badge/JENKINS-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/> <img src="https://img.shields.io/badge/LET'S ENCRYPT-003A70?style=for-the-badge&logo=letsencrypt&logoColor=white"/>
+<p><img src="https://img.shields.io/badge/AMAZON EC2-232F3E?style=for-the-badge&logo=amazonec2&logoColor=white"/>
+<img src="https://img.shields.io/badge/AMAZON S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"/>
+<img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+<img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/DOCKER COMPOSE-2496ED?style=for-the-badge&logo=&logoColor=white"/>
+<img src="https://img.shields.io/badge/UBUNTU-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
+<img src="https://img.shields.io/badge/JENKINS-D24939?style=for-the-badge&logo=jenkins&logoColor=white"/>
+<img src="https://img.shields.io/badge/LET'S ENCRYPT-003A70?style=for-the-badge&logo=letsencrypt&logoColor=white"/></p>
 
 <h4>📱Frontend</h4>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=REACT&logoColor=white"/> <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=TYPESCRIPT&logoColor=white"/> <img src="https://img.shields.io/badge/TAILWIND CSS-06B6D4?style=for-the-badge&logo=TAILWINDCSS&logoColor=white"/>
+<p><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/REACT-61DAFB?style=for-the-badge&logo=REACT&logoColor=white"/>
+<img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=TYPESCRIPT&logoColor=white"/>
+<img src="https://img.shields.io/badge/TAILWIND CSS-06B6D4?style=for-the-badge&logo=TAILWINDCSS&logoColor=white"/></p>
 
 <h4>💾 Backend</h4>
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/SPRING BOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/SPRING Data JPA-6DB33F?style=for-the-badge&logo=springdatajpa&logoColor=white"/> <img src="https://img.shields.io/badge/SPRING SECURITY-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/> <img src="https://img.shields.io/badge/OAUTH2-40AEF0?style=for-the-badge&logo=oauth2&logoColor=white"/> <img src="https://img.shields.io/badge/JSON WEB TOKENS-000000?style=for-the-badge&logo=JSON WEB TOKENS&logoColor=white"/> <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=FASTAPI&logoColor=white"/>
+<p><img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/SPRING BOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/SPRING Data JPA-6DB33F?style=for-the-badge&logo=springdatajpa&logoColor=white"/>
+<img src="https://img.shields.io/badge/SPRING SECURITY-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
+<img src="https://img.shields.io/badge/OAUTH2-40AEF0?style=for-the-badge&logo=oauth2&logoColor=white"/>
+<img src="https://img.shields.io/badge/JSON WEB TOKENS-000000?style=for-the-badge&logo=JSON WEB TOKENS&logoColor=white"/>
+<img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=FASTAPI&logoColor=white"/></p>
 </p><br>
 
 <p>
@@ -114,43 +142,43 @@
 ## 기획 및 설계 산출물
 
 ### 요구사항 명세서
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/f8253804-12d8-4c26-a01d-1ae7abc1ebdf" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/3124c144-90e8-4b89-a96d-fed4d90fe05c" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/4cba75f2-d1d1-40a6-ac6e-f7d2a4692d05" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/fcee245b-57f9-4379-9823-f82fcde5ed2f" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/e1e47f98-81e6-43b8-ae88-d73866fc4bdf" width=60% height=60%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/f8253804-12d8-4c26-a01d-1ae7abc1ebdf" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/3124c144-90e8-4b89-a96d-fed4d90fe05c" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/4cba75f2-d1d1-40a6-ac6e-f7d2a4692d05" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/fcee245b-57f9-4379-9823-f82fcde5ed2f" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/e1e47f98-81e6-43b8-ae88-d73866fc4bdf" width=80% height=80%>
 
 ### 기능명세서
 #### 프론트엔드
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/59b772cb-ca10-4050-812c-287882f80f4b" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/7538cf62-6369-4ce0-9cec-50bb8b2f80a2" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/b5b59064-c98a-4e9f-9ffa-fb0d9c351f75" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/eed6e48c-54ec-433a-9d0f-c54d0d2a16da" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d077987e-1801-442a-a67d-76772c0cb7a8" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/25d1bce2-f3cc-4687-aac9-a990eaa98042" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/cb31c537-3164-4030-907a-5e605ad8bea8" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/f66a13a9-ddae-47cb-b769-bc4a7c3bd06c" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/67192af2-87ec-4098-999f-eb725f94473f" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/57b6a4f7-3e91-44fe-90a5-62340ec7bef2" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/a58aa406-66a6-41b2-8dd4-98c1737e8b0a" width=60% height=60%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/59b772cb-ca10-4050-812c-287882f80f4b" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/7538cf62-6369-4ce0-9cec-50bb8b2f80a2" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/b5b59064-c98a-4e9f-9ffa-fb0d9c351f75" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/eed6e48c-54ec-433a-9d0f-c54d0d2a16da" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d077987e-1801-442a-a67d-76772c0cb7a8" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/25d1bce2-f3cc-4687-aac9-a990eaa98042" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/cb31c537-3164-4030-907a-5e605ad8bea8" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/f66a13a9-ddae-47cb-b769-bc4a7c3bd06c" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/67192af2-87ec-4098-999f-eb725f94473f" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/57b6a4f7-3e91-44fe-90a5-62340ec7bef2" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/a58aa406-66a6-41b2-8dd4-98c1737e8b0a" width=80% height=80%>
 
 #### 백엔드
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/3041fa58-1a4c-4de3-8ff0-e6a2fd9261ae" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d3a185ac-7b77-48fa-94a8-ca91fa82db98" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/7c8b2894-09b2-4287-aea3-0902979a4965" width=60% height=60%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/1eb4612a-e7fa-4b61-b38d-49b8b6ac1f27" width=60% height=60%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/3041fa58-1a4c-4de3-8ff0-e6a2fd9261ae" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d3a185ac-7b77-48fa-94a8-ca91fa82db98" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/7c8b2894-09b2-4287-aea3-0902979a4965" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/1eb4612a-e7fa-4b61-b38d-49b8b6ac1f27" width=80% height=80%>
 
 ### 화면 설계서
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/b7e15678-b9ac-4bed-8702-7f615444ef7b" width=60% height=60%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/b7e15678-b9ac-4bed-8702-7f615444ef7b" width=80% height=80%>
 
 ### ERD
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d41e6589-137f-44c9-aed4-354a86be1814" width=60% height=60%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d41e6589-137f-44c9-aed4-354a86be1814" width=80% height=80%>
 
 </p>
 
 <p>
 
 ## 팀원 소개
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/8cc5aec4-53eb-47d8-9352-ab0c59d6f9f8" width=50% height=50%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/8cc5aec4-53eb-47d8-9352-ab0c59d6f9f8" width=70% height=70%>
 
 </p>
