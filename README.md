@@ -1,4 +1,4 @@
-# <div align="center"><img align="center" src="https://github.com/ykim-yeji/daumnal/assets/68416691/04a95dc7-fdf5-43c5-abd4-891ee09e6fc0" width=40% height=40%><hr><h3 align="center">다음날</h3></div>
+# <div align="center"><img align="center" src="https://github.com/ykim-yeji/daumnal/assets/68416691/04a95dc7-fdf5-43c5-abd4-891ee09e6fc0" width=40% height=40%><h3 align="center">다음날</h3></div>
 
 <div>
 <p align="center">
@@ -142,43 +142,43 @@
 ## 기획 및 설계 산출물
 
 ### 요구사항 명세서
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/f8253804-12d8-4c26-a01d-1ae7abc1ebdf" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/3124c144-90e8-4b89-a96d-fed4d90fe05c" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/4cba75f2-d1d1-40a6-ac6e-f7d2a4692d05" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/fcee245b-57f9-4379-9823-f82fcde5ed2f" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/e1e47f98-81e6-43b8-ae88-d73866fc4bdf" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/f8253804-12d8-4c26-a01d-1ae7abc1ebdf">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/3124c144-90e8-4b89-a96d-fed4d90fe05c">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/4cba75f2-d1d1-40a6-ac6e-f7d2a4692d05">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/fcee245b-57f9-4379-9823-f82fcde5ed2f">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/e1e47f98-81e6-43b8-ae88-d73866fc4bdf">
 
 ### 기능명세서
 #### 프론트엔드
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/59b772cb-ca10-4050-812c-287882f80f4b" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/7538cf62-6369-4ce0-9cec-50bb8b2f80a2" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/b5b59064-c98a-4e9f-9ffa-fb0d9c351f75" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/eed6e48c-54ec-433a-9d0f-c54d0d2a16da" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d077987e-1801-442a-a67d-76772c0cb7a8" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/25d1bce2-f3cc-4687-aac9-a990eaa98042" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/cb31c537-3164-4030-907a-5e605ad8bea8" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/f66a13a9-ddae-47cb-b769-bc4a7c3bd06c" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/67192af2-87ec-4098-999f-eb725f94473f" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/57b6a4f7-3e91-44fe-90a5-62340ec7bef2" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/a58aa406-66a6-41b2-8dd4-98c1737e8b0a" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/59b772cb-ca10-4050-812c-287882f80f4b">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/7538cf62-6369-4ce0-9cec-50bb8b2f80a2">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/b5b59064-c98a-4e9f-9ffa-fb0d9c351f75">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/eed6e48c-54ec-433a-9d0f-c54d0d2a16da">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d077987e-1801-442a-a67d-76772c0cb7a8">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/25d1bce2-f3cc-4687-aac9-a990eaa98042">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/cb31c537-3164-4030-907a-5e605ad8bea8">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/f66a13a9-ddae-47cb-b769-bc4a7c3bd06c">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/67192af2-87ec-4098-999f-eb725f94473f">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/57b6a4f7-3e91-44fe-90a5-62340ec7bef2">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/a58aa406-66a6-41b2-8dd4-98c1737e8b0a">
 
 #### 백엔드
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/3041fa58-1a4c-4de3-8ff0-e6a2fd9261ae" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d3a185ac-7b77-48fa-94a8-ca91fa82db98" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/7c8b2894-09b2-4287-aea3-0902979a4965" width=80% height=80%>
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/1eb4612a-e7fa-4b61-b38d-49b8b6ac1f27" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/3041fa58-1a4c-4de3-8ff0-e6a2fd9261ae">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d3a185ac-7b77-48fa-94a8-ca91fa82db98">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/7c8b2894-09b2-4287-aea3-0902979a4965">
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/1eb4612a-e7fa-4b61-b38d-49b8b6ac1f27">
 
 ### 화면 설계서
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/b7e15678-b9ac-4bed-8702-7f615444ef7b" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/b7e15678-b9ac-4bed-8702-7f615444ef7b">
 
 ### ERD
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d41e6589-137f-44c9-aed4-354a86be1814" width=80% height=80%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/d41e6589-137f-44c9-aed4-354a86be1814">
 
 </p>
 
 <p>
 
 ## 팀원 소개
-<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/8cc5aec4-53eb-47d8-9352-ab0c59d6f9f8" width=70% height=70%>
+<img src="https://github.com/ykim-yeji/daumnal/assets/68416691/8cc5aec4-53eb-47d8-9352-ab0c59d6f9f8">
 
 </p>
